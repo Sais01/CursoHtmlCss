@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+ 
+    <head>
+        <meta charset = "utf-8">
+        <title>Minha primeira pagina</title>     
+    </head>
+    
+    <body>
+        <header></header>
+        <div>
+            <img src = "face.jpg" width="600px" height="600px">
+        </div> 
+        
+        <div>
+            <ol>
+                <li>Primeiro item</li>
+                <li>Segundo item</li>
+            </ol>
+        </div>
+
+        <div>
+            <ul>
+                <li><strong>Primeiro item</strong></li>
+                <li>Segundo item</li>
+            </ul>
+        </div>
+
+        <div>
+            <a href="pagina2.html">Pagina 2</a>
+        </div>
+
+        <div>
+            <table>
+                <tr><td>Nome</td><td>Idade</td></tr>
+                <tr><td>Cristofer</td><td>17</td></tr>
+                <tr><td>17</td><td>Cristofer</td></tr>
+            </table>
+        </div>
+        <form action="processa.php" method="POST">
+            <label>Text</label>
+            <input type="text" name="texto1" placeholder="Text">
+            
+            <br>
+
+            <label>Senha</label>
+            <input type="password" name="senha">
+
+            <br>
+
+            <label>Oculto</label>
+            <input type="hidden" name="informacao_oculta" value="mensagem oculta">
+
+            <br>
+
+            <label>Seleção</label>
+            <select name="selecao">
+                <option value="1">Opção 1</option>
+                <option value="2">Opção 2</option>
+            </select>
+
+            <br>
+
+            <label>Radio</label><br>
+            <input type="radio" name="radio1" value="1">Valor 1<br>
+            <input type="radio" name="radio1" value="2">Valor 2<br>
+
+            <br>
+
+            <label>CheckBox</label><br>
+            <input type="checkbox" name="ck1" value="1" checked>Valor 1<br>
+            <input type="checkbox" name="ck1" value="2">Valor 2<br>
+            <input type="checkbox" name="ck1" value="3">Valor 3<br>
+
+            <br>
+
+            <input type="submit" name="enviar" value="submit">
+        </form>
+            
+
+        <footer></footer>   
+    </body>
+ 
+</html>
